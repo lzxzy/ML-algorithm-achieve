@@ -7,7 +7,7 @@ w = []
 a = []
 b = 0
 lens = 0
-n = 0
+n = 1
 Gram = []
 
 def calInnerProduct(i,j):
