@@ -68,10 +68,10 @@ def  check():
         for keys in w:
             tmp += str(keys)+' '
         tmp = tmp.strip()
-        modelFile.write(tmp + '\n')
-        modelFile.write(str(b) + '\n')
+        modelFile.write(tmp + ' ' + str(b) + '\n')
+        '''modelFile.write(str(b) + '\n')
         modelFile.write(str(lens) + '\n')
-        modelFile.write(str(n) + '\n')
+        modelFile.write(str(n) + '\n')'''
         modelFile.close()
         os._exit(0)
     flag = False
@@ -102,12 +102,6 @@ if __name__ == '__main__':
     for i in range(lens):
         w.append(0)
 
-<<<<<<< HEAD
     for i in range(1000):
         check()
     print "The training_set is not linear separable. "
-=======
-	for i in range(1000):
-		check()
-	print "The training_set is not linear separable. "
->>>>>>> 0753206f91d2db49c7d2c0fc540181ec00e21105
