@@ -102,6 +102,12 @@ if __name__ == '__main__':
     for i in range(lens):
         w.append(0)
 
+<<<<<<< HEAD
     for i in range(1000):
         check()
     print "The training_set is not linear separable. "
+=======
+	for i in range(1000):
+		check()
+	print "The training_set is not linear separable. "
+>>>>>>> 0753206f91d2db49c7d2c0fc540181ec00e21105
